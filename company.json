@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Big Comapany",
+        "numberofemp": 100,
+        "ceo": "sanju",
+        "rating": 3.6
+    },
+    {
+        "name": "Startup",
+        "numberofemp": 5,
+        "ceo": "umee",
+        "rating": 1.2
+    }
+]
