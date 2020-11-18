@@ -7,21 +7,33 @@
     <title>JSON Example</title>
     <script>
         let company =
-            [
-                {
-                    "name": "Big Comapany",
-                    "numberofemp": 100,
-                    "ceo": "sanju",
-                    "rating": 3.6
-                },
-                {
-                    "name": "Startup",
-                    "numberofemp": 5,
-                    "ceo": "umee",
-                    "rating": 1.2
-                }
-            ]
-        console.log(JSON.parse(company))
+            `[
+    {
+        "name": "Big Comapany",
+        "numberofemp": 100,
+        "ceo": "sanju",
+        "rating": 3.6
+    },
+    {
+        "name": "Startup",
+        "numberofemp": 5,
+        "ceo": null,
+        "rating": 1.2
+    },
+    {
+        "name": "Normal",
+        "numberofemp": 12,
+        "ceo": "umee",
+        "rating": 2.0
+    },
+    {
+        "name": "Multinational",
+        "numberofemp": 1000,
+        "ceo": "Don Norman",
+        "rating": 6.8
+    }
+]`
+        console.log(JSON.parse(company)[0].name)
     </script>
 </head>
 

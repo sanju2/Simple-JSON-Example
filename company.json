@@ -8,7 +8,19 @@
     {
         "name": "Startup",
         "numberofemp": 5,
-        "ceo": "umee",
+        "ceo": null,
         "rating": 1.2
+    },
+    {
+        "name": "Normal",
+        "numberofemp": 12,
+        "ceo": "umee",
+        "rating": 2.0
+    },
+    {
+        "name": "Multinational",
+        "numberofemp": 1000,
+        "ceo": "Don Norman",
+        "rating": 6.8
     }
 ]
